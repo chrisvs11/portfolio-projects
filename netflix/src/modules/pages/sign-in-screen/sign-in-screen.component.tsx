@@ -58,6 +58,7 @@ function onSubmit() {
             <h4>
               <span className={classes.signUp_gray}>New to netflix? </span>
               <a onClick={()=>setSignUp(true)}>Sign Up now</a>
+              <div>Try this: <p>username: mockedUser@mocked.com,</p> <p>password: 1234</p></div>
             </h4>
           </form>
           )}
